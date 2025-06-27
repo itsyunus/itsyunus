@@ -38,6 +38,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shaikyunus&show_icons=true&locale=en&layout=compact" alt="shaikyunus" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shaikyunus&show_icons=true&locale=en" alt="shaikyunus" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=shaikyunus&" alt="shaikyunus" /></p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/shaikyunus/shaikyunus/blob/output/github-contribution-grid-snake.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/shaikyunus/shaikyunus/blob/output/github-contribution-grid-snake-dark.svg">
