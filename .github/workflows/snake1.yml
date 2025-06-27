@@ -2,15 +2,14 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *" # runs every day at midnight UTC
+    - cron: "0 0 * * *"  # every day at midnight
   workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # Snake animation generator
-      - name: Generate Snake SVG
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: shaikyunus
@@ -18,11 +17,6 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Optional: Remove .git in dist to avoid git push errors
-      - name: Clean dist .git (if exists)
-        run: rm -rf dist/.git
-
-      # Push generated content to output branch
       - name: Push to GitHub
         uses: crazy-max/ghaction-github-pages@v3
         with:
