@@ -62,7 +62,7 @@
 ![](https://github-contributor-stats.vercel.app/api?username=itsyunus&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-![LeetCode Stats](https://leetcard.jacoblin.cool/<your-leetcode-username>?ext=contest)
+![LeetCode Stats](https://leetcard.jacoblin.cool/YunuZCodes?ext=contest)
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
