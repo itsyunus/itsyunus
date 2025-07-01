@@ -1,81 +1,46 @@
-import requests
-import datetime
-import json
+import requests, datetime, json
 
-LEETCODE_USERNAME = "yunuzcodes"  # Use your username in lowercase
-
-year = datetime.datetime.now().year
-
-headers = {
-    'Content-Type': 'application/json',
-    'Referer': f'https://leetcode.com/{LEETCODE_USERNAME}/',
-    'User-Agent': 'Mozilla/5.0',
-}
+LEETCODE_USERNAME = "yunuzcodes"  # lowercase
+year = datetime.date.today().year
 
 query = {
-    "operationName": "userProgressCalendarV2",
-    "variables": {
-        "username": LEETCODE_USERNAME,
-        "year": year,
-        "queryType": "YEARLY"
-    },
+    "operationName": "userProfileCalendar",
+    "variables": {"username": LEETCODE_USERNAME, "year": year},
     "query": """
-        query userProgressCalendarV2($username: String!, $year: Int!, $queryType: ProgressCalendarQueryTypeEnum!) {
-            userProgressCalendarV2(username: $username, year: $year, queryType: $queryType) {
-                dailySubmissionData {
-                    date
-                    count
-                }
-            }
+      query userProfileCalendar($username: String!, $year: Int) {
+        matchedUser(username: $username) {
+          userCalendar(year: $year) {
+            streak
+            submissionCalendar
+          }
         }
+      }
     """
 }
 
-res = requests.post("https://leetcode.com/graphql", json=query, headers=headers)
+res = requests.post("https://leetcode.com/graphql", json=query, headers={
+    "Content-Type": "application/json",
+    "Referer": f"https://leetcode.com/{LEETCODE_USERNAME}/",
+})
 data = res.json()
-
-# Debug print
-print("Response from LeetCode:")
 print(json.dumps(data, indent=2))
 
-# Handle error
-if "data" not in data or not data["data"].get("userProgressCalendarV2"):
-    print("❌ Error: Failed to fetch calendar. Check username or visibility.")
+# Validate response
+cal = data.get("data", {}).get("matchedUser", {}).get("userCalendar")
+if not cal:
+    print("❌ Failed to fetch userCalendar. Check username or visibility.")
     exit(1)
 
-submissions = data["data"]["userProgressCalendarV2"]["dailySubmissionData"]
+current_streak = cal.get("streak", 0)
+# Optionally parse calendar JSON if you want daily details
+# submission_map = json.loads(cal["submissionCalendar"])
 
-# Convert to date -> count dict
-submission_map = {s["date"]: s["count"] for s in submissions}
-
-# Calculate streak
-today = datetime.date.today()
-streak = 0
-
-for i in range(0, 365):
-    date = today - datetime.timedelta(days=i)
-    date_str = date.strftime("%Y-%m-%d")
-    if submission_map.get(date_str, 0) > 0:
-        streak += 1
-    else:
-        break
-
-# Update README.md
-README_FILE = "README.md"
-START_MARKER = "<!-- LEETCODE-STREAK-START -->"
-END_MARKER = "<!-- LEETCODE-STREAK-END -->"
-
-with open(README_FILE, "r", encoding="utf-8") as f:
+# Update README
+with open("README.md", "r+") as f:
     content = f.read()
+    start, end = "<!-- LEETCODE-STREAK-START -->", "<!-- LEETCODE-STREAK-END -->"
+    new_section = f"{start}\n🔥 Current LeetCode Streak: `{current_streak}` days\n{end}"
+    updated = content.split(start)[0] + new_section + content.split(end)[1]
+    f.seek(0); f.write(updated); f.truncate()
 
-new_content = f"{START_MARKER}\n🔥 Current LeetCode Streak: `{streak}` days\n{END_MARKER}"
-updated = (
-    content.split(START_MARKER)[0]
-    + new_content
-    + content.split(END_MARKER)[1]
-)
-
-with open(README_FILE, "w", encoding="utf-8") as f:
-    f.write(updated)
-
-print(f"✅ Updated README with current streak: {streak} days")
+print(f"✅ Updated streak: {current_streak}")
