@@ -65,7 +65,7 @@
 ![LeetCode Stats](https://leetcard.jacoblin.cool/YunuZCodes?ext=contest)
 
 <!-- LEETCODE-STREAK-START -->
-Loading...
+🔥 Current LeetCode Streak: `2` days
 <!-- LEETCODE-STREAK-END -->
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
