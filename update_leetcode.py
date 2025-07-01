@@ -2,7 +2,7 @@ import requests
 import datetime
 import json
 
-LEETCODE_USERNAME = "your_leetcode_username"
+LEETCODE_USERNAME = "yunuzcodes"
 
 # Headers for GraphQL
 headers = {
