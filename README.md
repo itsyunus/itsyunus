@@ -62,19 +62,7 @@
 ![](https://github-contributor-stats.vercel.app/api?username=itsyunus&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+![LeetCode Stats](https://leetcard.jacoblin.cool/<your-leetcode-username>?ext=contest)
 
-### 🐍 Contribution Snake Animation
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/shaikyunus/shaikyunus/main/snake-assets/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/shaikyunus/shaikyunus/main/snake-assets/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/shaikyunus/shaikyunus/main/snake-assets/github-contribution-grid-snake.svg" />
-</picture>
-
-
-
----
-
-[![](https://visitcount.itsvg.in/api?id=itsyunus&icon=1&color=1)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
