@@ -42,7 +42,7 @@ Explored sequence models and news sentiment for market analysis. Built a researc
 ## Education & credentials
 
 **B.Tech (Hons.), Computer Science — Data Science / ML focus; DevOps minor**  
-Lovely Professional University · Expected Aug 2026
+Lovely Professional University · Aug 2026
 
 - Microsoft Certified: Azure AI Fundamentals (AI-900)
 - Oracle Certified Cloud Engineer
