@@ -24,6 +24,14 @@ Built a character-aware language model in **PyTorch**, evaluated on the **UD Eng
 ### Transformer and sentiment analysis for algorithmic trading
 Explored sequence models and news sentiment for market analysis. Built a research prototype with **Flask and Go APIs**, a **React** interface, and market-data workflows on **AWS**. Back-tested strategies in R.
 
+## Streaks
+
+<!-- LEETCODE-STREAK-START -->
+🔥 Current LeetCode Streak: **7 days**
+<!-- LEETCODE-STREAK-END -->
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=itsyunus)](https://github.com/itsyunus)
+
 ## Experience
 
 | Role | Focus |
