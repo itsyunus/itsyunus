@@ -14,13 +14,15 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 @keyframes draw{to{stroke-dashoffset:0}}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fade{from{opacity:0}to{opacity:1}}@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
 @keyframes march{to{stroke-dashoffset:-24}}@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes ping{0%{transform:scale(.7);opacity:.8}100%{transform:scale(2.3);opacity:0}}
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .rise{opacity:0;animation:rise .65s cubic-bezier(.2,.7,.2,1) forwards;transform-box:fill-box;transform-origin:center}
 .fade{opacity:0;animation:fade .7s ease forwards}.draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 1.6s cubic-bezier(.6,0,.2,1) forwards}
 .pulse{animation:pulse 2.4s ease-in-out infinite}.march{stroke-dasharray:3 9;animation:march 1.5s linear infinite}
 .spin{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-out infinite}
 .grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) forwards}
-@media(prefers-reduced-motion:reduce){.rise,.fade,.draw,.pulse,.march,.spin,.grow,.cell{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}}
+@media(prefers-reduced-motion:reduce){.rise,.fade,.draw,.pulse,.march,.spin,.grow,.cell,.ping{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}}
 '''
 
 def esc(s): return html.escape(str(s), quote=False)
@@ -131,11 +133,14 @@ def activity(p):
     vals=CALENDAR[-371:]
     if len(vals)<371: vals=[('2026-01-01',0)]*(371-len(vals))+vals
     cell=11; gap=5; x0=43; y0=50
-    out=['<text x="43" y="27" class="small muted">DAILY CONTRIBUTIONS / LAST 12 MONTHS</text>']
+    out=['<text x="43" y="27" class="small muted">DAILY CONTRIBUTION INTENSITY / LAST 12 MONTHS</text><text x="957" y="27" class="small accent" text-anchor="end">TODAY</text>']
     for i,(d,level) in enumerate(vals):
         col,row=divmod(i,7); x=x0+col*(cell+gap); y=y0+row*(cell+gap)
         fill=['var(--soft)','var(--rule)','var(--dim)','var(--muted)','var(--accent)'][min(level,4)]
         out.append(f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{fill}" class="cell" style="--i:{i};animation:fade .35s ease {i*2}ms both"/>')
+    last_col,last_row=divmod(len(vals)-1,7)
+    last_x=x0+last_col*(cell+gap); last_y=y0+last_row*(cell+gap)
+    out.append(f'<rect x="{last_x-3}" y="{last_y-3}" width="{cell+6}" height="{cell+6}" rx="4" fill="none" stroke="var(--accent)" class="ping"/>')
     out.append(f'<path d="M43 194H957" class="rule"/>')
     # aggregate by week, draw a contribution trend line scaled only to the visible calendar levels
     weeks=[]
@@ -149,7 +154,7 @@ def activity(p):
     for i in range(5): out.append(f'<rect x="{846+i*17}" y="211" width="11" height="11" rx="2" fill="{["var(--soft)","var(--rule)","var(--dim)","var(--muted)","var(--accent)"][i]}"/>')
     out.append('<text x="944" y="222" class="small dim" text-anchor="end">MORE</text>')
     return ''.join(out)
-dual('activity',1000,245,'Animated GitHub contribution graph','Animated daily GitHub contribution heatmap and weekly trend based on the public contribution calendar.',activity)
+dual('activity-v2',1000,245,'Animated GitHub contribution graph','Animated daily GitHub contribution heatmap and weekly trend based on the public contribution calendar.',activity)
 
 def timeline(p):
     items=[('2023','LANGUAGE MODEL','Character-aware NLP research'),('2024','BOARD INFINITY','Software engineering internship'),('MAR 2026','LAUNCHED GLOBAL','Product engineering / Meraki'),('JUN 2026','CAUTIO','Operations analytics'),('AUG 2026','B.TECH (HONS.)','Computer Science · LPU'),('OCT 2026','NVIDIA','GPU data specialist')]
@@ -157,10 +162,13 @@ def timeline(p):
     out=['<path d="M58 126H1142" stroke="var(--rule)" class="axis draw"/>','<path d="M58 126H1142" stroke="var(--accent)" stroke-width="1" class="march"/>']
     for i,((when,org,desc),x) in enumerate(zip(items,xs)):
         up=i%2==0; y=126-48 if up else 126+60; align='start' if x<950 else 'end'; tx=x+(12 if align=='start' else -12)
-        out.append(f'<g class="rise" style="animation-delay:{.16+i*.16}s"><circle cx="{x}" cy="126" r="7" fill="var(--paper)" stroke="var(--accent)" stroke-width="2"/><circle cx="{x}" cy="126" r="13" stroke="var(--accent)" class="pulse" opacity=".6"/><path d="M{x} 126V{y+(18 if up else -25)}" class="rule"/><text x="{tx}" y="{y}" text-anchor="{align}" class="small accent">{when}</text><text x="{tx}" y="{y+20}" text-anchor="{align}" font-size="13" font-weight="700">{org}</text><text x="{tx}" y="{y+40}" text-anchor="{align}" font-size="11" class="muted">{esc(desc)}</text></g>')
-    out.append('<circle cx="1138" cy="126" r="4" fill="var(--accent)" class="pulse"/>')
+        current=i==len(items)-1
+        ring=f'<circle cx="{x}" cy="126" r="13" stroke="var(--accent)" class="ping" opacity=".6"/>' if current else ''
+        radius=7 if current else 5
+        out.append(f'<g class="rise" style="animation-delay:{.16+i*.16}s"><circle cx="{x}" cy="126" r="{radius}" fill="var(--paper)" stroke="var(--accent)" stroke-width="2"/>{ring}<path d="M{x} 126V{y+(18 if up else -25)}" class="rule"/><text x="{tx}" y="{y}" text-anchor="{align}" class="small accent">{when}</text><text x="{tx}" y="{y+20}" text-anchor="{align}" font-size="13" font-weight="700">{org}</text><text x="{tx}" y="{y+40}" text-anchor="{align}" font-size="11" class="muted">{esc(desc)}</text></g>')
+    out.append('<text x="1138" y="105" text-anchor="end" class="small accent pulse">NOW</text><circle cx="1138" cy="126" r="3" fill="var(--accent)"/>')
     return ''.join(out)
-dual('timeline',1200,250,'Development timeline','Animated timeline from neural language modeling and software engineering to product analytics and NVIDIA GPU data work.',timeline)
+dual('timeline-v2',1200,250,'Development timeline','Animated timeline from neural language modeling and software engineering to product analytics and NVIDIA GPU data work.',timeline)
 
 def experience(p):
     rows=[('01','OCT 2026 — PRESENT','DATA SPECIALIST','NVIDIA · Bengaluru','500K+ GPU telemetry records · 10+ KPI dashboards · 99.4% data accuracy'),('02','JUN 2026 — PRESENT','DATA ANALYST','CAUTIO · Bengaluru','250K+ operational records · 45% less manual reporting · 10+ hours saved weekly'),('03','MAR — MAY 2026','BUSINESS ANALYST INTERN','LAUNCHED GLOBAL · Bengaluru','React/Redux + Rails policy features · 20+ business requirements'),('04','JUN — AUG 2024','SOFTWARE ENGINEERING INTERN','BOARD INFINITY · Remote','C++ · algorithms · object-oriented programming · Git code reviews')]

@@ -20,7 +20,7 @@
 <div align="center">
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/github-stats.svg"/><img src="assets/github-stats.svg" width="97%" alt="GitHub contributions, active days, and public repositories"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/activity.svg"/><img src="assets/activity.svg" width="97%" alt="Animated GitHub contribution calendar and activity trend"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/activity-v2.svg"/><img src="assets/activity-v2.svg" width="97%" alt="Animated GitHub contribution calendar with a pulse on today and a weekly activity trend"/></picture>
 
 <a href="https://github.com/itsyunus"><img src="https://streak-stats.demolab.com?user=itsyunus&theme=transparent&hide_border=true&background=00000000&ring=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e" alt="GitHub contribution and streak counter"/></a>
 
@@ -33,7 +33,7 @@
 </div>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s05.svg"/><img src="assets/s05.svg" alt="05 — the route"/></picture>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg"/><img src="assets/timeline.svg" alt="Animated professional and education timeline"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline-v2.svg"/><img src="assets/timeline-v2.svg" alt="Animated professional and education timeline highlighting the current NVIDIA role"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/experience-v2.svg"/><img src="assets/experience-v2.svg" alt="Professional experience and impact"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" alt="06 — stack"/></picture>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Technical stack grouped by data, ML, and engineering"/></picture>
