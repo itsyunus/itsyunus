@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 58" width="1000" height="58" fill="none" role="img" aria-labelledby="title desc"><title id="title">01 — whoami</title><desc id="desc">Section 1: whoami</desc><style>
+*{box-sizing:border-box}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;fill:var(--ink)}
+.small{font-size:12px;letter-spacing:1.5px}.body{font-size:16px}.muted{fill:var(--muted)}.dim{fill:var(--dim)}.accent{fill:var(--accent)}
+.rule{stroke:var(--rule);stroke-width:1}.paper{fill:var(--paper)}.panel{fill:var(--panel);stroke:var(--rule);stroke-width:1}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes march{to{stroke-dashoffset:-24}}@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.rise{opacity:0;animation:rise .65s cubic-bezier(.2,.7,.2,1) forwards;transform-box:fill-box;transform-origin:center}
+.fade{opacity:0;animation:fade .7s ease forwards}.draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 1.6s cubic-bezier(.6,0,.2,1) forwards}
+.pulse{animation:pulse 2.4s ease-in-out infinite}.march{stroke-dasharray:3 9;animation:march 1.5s linear infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) forwards}
+@media(prefers-reduced-motion:reduce){.rise,.fade,.draw,.pulse,.march,.spin,.grow,.cell{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}}
+:root{--paper:#ffffff;--ink:#111111;--muted:#707070;--dim:#999999;--rule:#dddddd;--accent:#666666;--panel:#fafafa;--soft:#f3f3f3}</style><rect class="paper" width="1000" height="58"/><path d="M24 48H976" class="draw" stroke="var(--rule)"/><g class="rise"><text x="25" y="33" class="small muted">01</text><text x="75" y="34" font-size="19" font-weight="700" letter-spacing="2">WHOAMI</text><circle cx="958" cy="29" r="4" fill="var(--accent)" class="pulse"/></g></svg>

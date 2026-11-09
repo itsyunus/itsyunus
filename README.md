@@ -1,73 +1,43 @@
 <div align="center">
 
-<img src="./assets/profile-header.svg" width="100%" alt="Shaik Mohammad Yunus — data, machine learning, and systems" />
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/header-v1.svg"/><img src="assets/header-v1.svg" alt="Shaik Mohammad Yunus — Data Specialist, Analytics Engineer, Applied ML"/></picture>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-0b1220?style=flat-square&logo=vercel&logoColor=65dfd0)](https://www.yunuz.codes) [![LinkedIn](https://img.shields.io/badge/LINKEDIN-0b1220?style=flat-square&logo=linkedin&logoColor=65dfd0)](https://linkedin.com/in/shaikyunus01) [![Email](https://img.shields.io/badge/EMAIL-0b1220?style=flat-square&logo=gmail&logoColor=65dfd0)](mailto:yunussm0@gmail.com)
+<a href="https://www.yunuz.codes"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/PORTFOLIO-0d1117?style=flat-square&logoColor=ffffff"/><img src="https://img.shields.io/badge/PORTFOLIO-ffffff?style=flat-square&logoColor=000000" alt="Portfolio"/></picture></a>
+<a href="https://linkedin.com/in/shaikyunus01"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/LINKEDIN-0d1117?style=flat-square&logo=linkedin&logoColor=ffffff"/><img src="https://img.shields.io/badge/LINKEDIN-ffffff?style=flat-square&logo=linkedin&logoColor=000000" alt="LinkedIn"/></picture></a>
+<a href="mailto:yunussm0@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/badge/EMAIL-0d1117?style=flat-square&logo=gmail&logoColor=ffffff"/><img src="https://img.shields.io/badge/EMAIL-ffffff?style=flat-square&logo=gmail&logoColor=000000" alt="Email"/></picture></a>
 
 </div>
 
----
-
-## 01 — WHO I AM
-
-I build analytics that help teams make better decisions. My work spans **GPU telemetry and data quality at NVIDIA**, operational analytics, product engineering, and applied machine learning. I’m based in Bengaluru, India, and hold a B.Tech (Hons.) in Computer Science with a Data Science / ML focus and a DevOps minor.
-
-## 02 — SYSTEM MAP
-
-| 01 · SIGNALS | 02 · FOUNDATIONS | 03 · INSIGHT | 04 · APPLICATION |
-| --- | --- | --- | --- |
-| GPU telemetry<br>Operational records<br>Market news | Python · SQL<br>ETL · validation<br>Data modeling | Utilization trends<br>KPI dashboards<br>Root-cause analysis | Resource allocation<br>Faster reporting<br>ML research prototypes |
-
-## 03 — SELECTED WORK
-
-| PROJECT | BUILD NOTES |
-| --- | --- |
-| **Character-aware language model**<br>PyTorch · NLP | Evaluated on the UD English Web Treebank. Character representations improved perplexity on unseen words by **3%** versus a same-size baseline. |
-| **Transformer + sentiment analysis for trading**<br>PyTorch · Flask · Go · React · AWS | Research prototype combining market signals and news sentiment, with REST APIs and R back-testing. |
-| **Meraki policy management**<br>React · Redux · Ruby on Rails | Built dashboard policy-management features during an internship; partnered with product and engineering to document and validate requirements. |
-
-## 04 — TELEMETRY
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s01.svg"/><img src="assets/s01.svg" alt="01 — whoami"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/whoami.svg"/><img src="assets/whoami.svg" alt="About Yunus: role, focus, and interests"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s02.svg"/><img src="assets/s02.svg" alt="02 — system map"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/ecosystem.svg"/><img src="assets/ecosystem.svg" alt="Data and machine learning system map"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s03.svg"/><img src="assets/s03.svg" alt="03 — selected work"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/projects.svg"/><img src="assets/projects.svg" alt="Selected projects in language modeling, trading research, and product engineering"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s04.svg"/><img src="assets/s04.svg" alt="04 — telemetry"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/telemetry.svg"/><img src="assets/telemetry.svg" alt="Animated professional impact metrics"/></picture>
 
 <div align="center">
 
-[![GitHub streak](https://streak-stats.demolab.com?user=itsyunus)](https://github.com/itsyunus)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/github-stats.svg"/><img src="assets/github-stats.svg" width="97%" alt="GitHub contributions, active days, and public repositories"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/activity.svg"/><img src="assets/activity.svg" width="97%" alt="Animated GitHub contribution calendar and activity trend"/></picture>
 
-<a href="https://leetcode.com/YunuZCodes/"><img src="https://leetcard.jacoblin.cool/YunuZCodes?ext=heatmap" width="620" alt="LeetCode statistics and activity heatmap for YunuZCodes" /></a>
+<a href="https://github.com/itsyunus"><img src="https://streak-stats.demolab.com?user=itsyunus&theme=transparent&hide_border=true&background=00000000&ring=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=8b949e" alt="GitHub contribution and streak counter"/></a>
 
-</div>
+<a href="https://leetcode.com/YunuZCodes/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/YunuZCodes?theme=dark&ext=heatmap"/><img src="https://leetcard.jacoblin.cool/YunuZCodes?theme=light&ext=heatmap" width="97%" alt="LeetCode statistics and activity heatmap for YunuZCodes"/></picture></a>
 
 <!-- LEETCODE-STREAK-START -->
-🔥 Current LeetCode Streak: **7 days**
+🔥 Current LeetCode Streak: `7` days
 <!-- LEETCODE-STREAK-END -->
 
-## 05 — THE ROUTE
-
-| WHEN | ROLE | WORK |
-| --- | --- | --- |
-| **Oct 2026–Present** | Data Specialist · NVIDIA | Python/SQL analysis of **500K+ GPU records**; **10+ KPI dashboards**; automated validation reaching **99.4%** accuracy. |
-| **Jun 2026–Present** | Data Analyst · Cautio | Analyzed **250K+ records**, cut manual reporting effort by **45%**, and built KPI dashboards. |
-| **Mar–May 2026** | Business Analyst Intern · LaunchED Global | Product requirements, dashboard analytics, and React/Redux/Rails feature work. |
-| **Jun–Aug 2024** | Software Engineering Intern · Board Infinity | C++, data structures, algorithms, and object-oriented programming. |
-
-## 06 — STACK
-
-**Data & analytics**  
-![Python](https://img.shields.io/badge/Python-0b1220?style=flat-square&logo=python&logoColor=65dfd0) ![SQL](https://img.shields.io/badge/SQL-0b1220?style=flat-square&logo=postgresql&logoColor=65dfd0) ![Power BI](https://img.shields.io/badge/Power%20BI-0b1220?style=flat-square&logo=powerbi&logoColor=65dfd0) ![Pandas](https://img.shields.io/badge/Pandas-0b1220?style=flat-square&logo=pandas&logoColor=65dfd0) ![Tableau](https://img.shields.io/badge/Tableau-0b1220?style=flat-square&logo=tableau&logoColor=65dfd0)
-
-**Machine learning & software**  
-![PyTorch](https://img.shields.io/badge/PyTorch-0b1220?style=flat-square&logo=pytorch&logoColor=65dfd0) ![C++](https://img.shields.io/badge/C%2B%2B-0b1220?style=flat-square&logo=cplusplus&logoColor=65dfd0) ![React](https://img.shields.io/badge/React-0b1220?style=flat-square&logo=react&logoColor=65dfd0) ![AWS](https://img.shields.io/badge/AWS-0b1220?style=flat-square&logo=amazonaws&logoColor=65dfd0) ![Docker](https://img.shields.io/badge/Docker-0b1220?style=flat-square&logo=docker&logoColor=65dfd0) ![Git](https://img.shields.io/badge/Git-0b1220?style=flat-square&logo=git&logoColor=65dfd0)
-
-## 07 — RESEARCH & CREDENTIALS
-
-- **Accepted for publication (2026):** “Design and Implementation of a Scalable Serverless Framework for Event-Driven Applications: Performance and Cost Efficiency Analysis,” *IJSREM*.
-- **Submitted (2026):** “The Compute Horizon: Inference-Time Scaling and the Architecture of Reasoning AI,” *JCTSA*.
-- Microsoft Certified: Azure AI Fundamentals (AI-900) · Oracle Certified Cloud Engineer
-
----
-
-<div align="center">
-
-**CURRENTLY BUILDING** · Data quality, analytics infrastructure, and applied ML  
-[Portfolio](https://www.yunuz.codes) · [LinkedIn](https://linkedin.com/in/shaikyunus01) · [Say hello](mailto:yunussm0@gmail.com)
-
 </div>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s05.svg"/><img src="assets/s05.svg" alt="05 — the route"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline.svg"/><img src="assets/timeline.svg" alt="Animated professional and education timeline"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/experience.svg"/><img src="assets/experience.svg" alt="Professional experience and impact"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/s06.svg"/><img src="assets/s06.svg" alt="06 — stack"/></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/stack.svg"/><img src="assets/stack.svg" alt="Technical stack grouped by data, ML, and engineering"/></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"/><img src="assets/footer.svg" alt="Current status: building reliable data systems and applied ML in Bengaluru"/></picture>
+
+<!-- One responsive picture per visual; the SVG includes its own motion and reduced-motion fallback. -->

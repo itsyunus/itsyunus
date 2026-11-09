@@ -24,10 +24,13 @@ jobs:
     - name: Run update script
       run: python update_leetcode.py
 
+    - name: Refresh animated GitHub visuals
+      run: python update_visuals.py
+
     - name: Commit and push
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add README.md
+        git add README.md assets/*.svg assets/dark/*.svg
         git commit -m "♻️ Update LeetCode streak" || echo "No changes to commit"
         git push

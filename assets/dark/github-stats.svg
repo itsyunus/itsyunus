@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" fill="none" role="img" aria-labelledby="title desc"><title id="title">GitHub activity summary</title><desc id="desc">Public contribution activity, days active, and public repository count.</desc><style>
+*{box-sizing:border-box}
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;fill:var(--ink)}
+.small{font-size:12px;letter-spacing:1.5px}.body{font-size:16px}.muted{fill:var(--muted)}.dim{fill:var(--dim)}.accent{fill:var(--accent)}
+.rule{stroke:var(--rule);stroke-width:1}.paper{fill:var(--paper)}.panel{fill:var(--panel);stroke:var(--rule);stroke-width:1}
+@keyframes draw{to{stroke-dashoffset:0}}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fade{from{opacity:0}to{opacity:1}}@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes march{to{stroke-dashoffset:-24}}@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+.rise{opacity:0;animation:rise .65s cubic-bezier(.2,.7,.2,1) forwards;transform-box:fill-box;transform-origin:center}
+.fade{opacity:0;animation:fade .7s ease forwards}.draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 1.6s cubic-bezier(.6,0,.2,1) forwards}
+.pulse{animation:pulse 2.4s ease-in-out infinite}.march{stroke-dasharray:3 9;animation:march 1.5s linear infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+.grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) forwards}
+@media(prefers-reduced-motion:reduce){.rise,.fade,.draw,.pulse,.march,.spin,.grow,.cell{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}}
+:root{--paper:#0d1117;--ink:#e6edf3;--muted:#9a9a9a;--dim:#707070;--rule:#353535;--accent:#b6b6b6;--panel:#111111;--soft:#171717}</style><rect class="paper" width="1000" height="280"/><path d="M38 242H962" class="draw" stroke="var(--rule)"/><g class="rise" style="animation-delay:0.12s"><text x="55" y="110" font-size="40" font-weight="700">208</text><text x="55" y="142" class="small muted">CONTRIBUTIONS / 12 MONTHS</text><rect x="55" y="174" width="250" height="1" fill="var(--rule)"/><rect x="55" y="174" width="206" height="2" fill="var(--accent)" class="grow" style="animation-delay:0.45s"/></g><g class="rise" style="animation-delay:0.3s"><text x="365" y="110" font-size="40" font-weight="700">31</text><text x="365" y="142" class="small muted">ACTIVE DAYS</text><rect x="365" y="174" width="250" height="1" fill="var(--rule)"/><rect x="365" y="174" width="170" height="2" fill="var(--accent)" class="grow" style="animation-delay:0.63s"/></g><g class="rise" style="animation-delay:0.48s"><text x="675" y="110" font-size="40" font-weight="700">51</text><text x="675" y="142" class="small muted">PUBLIC REPOSITORIES</text><rect x="675" y="174" width="250" height="1" fill="var(--rule)"/><rect x="675" y="174" width="222" height="2" fill="var(--accent)" class="grow" style="animation-delay:0.81s"/></g><text x="55" y="216" class="small dim">PUBLIC PROFILE SNAPSHOT · UPDATED WITH CONTRIBUTION CALENDAR</text></svg>
