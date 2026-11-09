@@ -6,11 +6,13 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation M
 @keyframes draw{to{stroke-dashoffset:0}}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 @keyframes fade{from{opacity:0}to{opacity:1}}@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
 @keyframes march{to{stroke-dashoffset:-24}}@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes ping{0%{transform:scale(.7);opacity:.8}100%{transform:scale(2.3);opacity:0}}
 @keyframes grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
 .rise{opacity:0;animation:rise .65s cubic-bezier(.2,.7,.2,1) forwards;transform-box:fill-box;transform-origin:center}
 .fade{opacity:0;animation:fade .7s ease forwards}.draw{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 1.6s cubic-bezier(.6,0,.2,1) forwards}
 .pulse{animation:pulse 2.4s ease-in-out infinite}.march{stroke-dasharray:3 9;animation:march 1.5s linear infinite}
 .spin{transform-box:fill-box;transform-origin:center;animation:spin 18s linear infinite}
+.ping{transform-box:fill-box;transform-origin:center;animation:ping 2.4s ease-out infinite}
 .grow{transform-box:fill-box;transform-origin:left center;animation:grow 1s cubic-bezier(.2,.7,.2,1) forwards}
-@media(prefers-reduced-motion:reduce){.rise,.fade,.draw,.pulse,.march,.spin,.grow,.cell{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}}
+@media(prefers-reduced-motion:reduce){.rise,.fade,.draw,.pulse,.march,.spin,.grow,.cell,.ping{animation:none!important;opacity:1!important;stroke-dashoffset:0!important;transform:none!important}}
 :root{--paper:#0d1117;--ink:#e6edf3;--muted:#9a9a9a;--dim:#707070;--rule:#353535;--accent:#b6b6b6;--panel:#111111;--soft:#171717}</style><rect class="paper" width="1000" height="110"/><path d="M30 22H970" class="draw" stroke="var(--rule)"/><circle cx="55" cy="62" r="5" fill="var(--accent)" class="pulse"/><circle cx="55" cy="62" r="15" stroke="var(--accent)" class="pulse" opacity=".5"/><text x="86" y="59" class="small muted">CURRENT STATUS</text><text x="86" y="83" font-size="16" font-weight="700">Building reliable data systems and applied ML.</text><text x="954" y="70" class="small accent" text-anchor="end">BENGALURU, INDIA · 2026</text></svg>
