@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus hero visual" />
+  <img src="https://www.gitskins.com/api/section/hero?username=itsyunus&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus hero visual" />
 </p>
 
 ## The city I built this year
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/city?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus city visual" />
+  <img src="https://www.gitskins.com/api/section/city?username=itsyunus&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus city visual" />
 </p>
 
 <p align="center"><sub>Every building is a day; taller means more contributions.</sub></p>
@@ -13,13 +13,13 @@
 ## Contribution activity
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/activity-v2.svg"/><img src="assets/activity-v2.svg" width="97%" alt="Animated contribution calendar with a pulse on today and a weekly activity trend"/></picture>
+  <img src="assets/dark/activity-v2.svg" width="97%" alt="Animated grayscale contribution calendar with a pulse on today and a weekly activity trend"/>
 </p>
 
 ## Population
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus stats visual" />
+  <img src="https://www.gitskins.com/api/section/stats?username=itsyunus&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus stats visual" />
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/YunuZCodes/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/YunuZCodes?theme=dark"/><img src="https://leetcard.jacoblin.cool/YunuZCodes?theme=light" width="97%" alt="LeetCode statistics for YunuZCodes"/></picture></a>
+  <a href="https://leetcode.com/YunuZCodes/"><img src="https://leetcard.jacoblin.cool/YunuZCodes?theme=dark" width="97%" alt="LeetCode statistics for YunuZCodes"/></a>
 </p>
 
 <!-- LEETCODE-STREAK-START -->
@@ -37,20 +37,20 @@
 ## Landmarks
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus projects visual" />
+  <img src="https://www.gitskins.com/api/section/projects?username=itsyunus&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus projects visual" />
 </p>
 
 ## The route here
 
 <p align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/timeline-v2.svg"/><img src="assets/timeline-v2.svg" width="100%" alt="Animated professional and education timeline highlighting the current NVIDIA role"/></picture>
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/experience-v2.svg"/><img src="assets/experience-v2.svg" width="100%" alt="Experience timeline with roles, dates, and impact"/></picture>
+  <img src="assets/dark/timeline-v2.svg" width="100%" alt="Animated dark grayscale professional and education timeline highlighting the current NVIDIA role"/>
+  <img src="assets/dark/experience-v2.svg" width="100%" alt="Dark grayscale experience timeline with roles, dates, and impact"/>
 </p>
 
 ## Visit
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus social visual" />
+  <img src="https://www.gitskins.com/api/section/social?username=itsyunus&amp;theme=github-dark&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus social visual" />
 </p>
 
 <p align="center"><a href="https://github.com/itsyunus">GitHub</a> · <a href="https://yunuz.codes/">Website</a></p>
