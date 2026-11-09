@@ -1,71 +1,57 @@
-# 💫 About Me:
-🔭 I’m currently working on Data Science  
-👯 I’m looking to collaborate on Data Engg.  
-🤝 I’m looking for help with Machine Learning  
-🌱 I’m currently learning Data Science  
-💬 Ask me about Anything  
-⚡ Fun fact: Coding is my hobbie
+# Shaik Mohammad Yunus
+
+### Data specialist building reliable analytics, ML systems, and products
+
+I turn large, messy datasets into trustworthy pipelines and decisions. Currently a **Data Specialist at NVIDIA** in Bengaluru, working across GPU telemetry, ETL quality, and executive analytics. My background spans data analysis, product engineering, and applied machine learning.
+
+[Portfolio](https://www.yunuz.codes) · [LinkedIn](https://linkedin.com/in/shaikyunus01) · [Email](mailto:yunussm0@gmail.com)
 
 ---
 
-## 🌐 Socials:
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/itsyunuz.bsky.social)
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/smyunus)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@not.yunuz)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shaikyunus01)
-[![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://pinterest.com/yunussm00745)
-[![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/YUNUZ-the-encoder)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:yunussm0@gmail.com)
+## Selected impact
+
+- **NVIDIA · GPU performance analytics** — Analyzed **500K+ telemetry records** with Python and SQL; surfaced utilization trends that improved resource allocation efficiency by **40%**.
+- **NVIDIA · Reporting systems** — Built **10+ Power BI dashboards** for cluster KPIs and pipeline throughput, reducing reporting turnaround by **38%**.
+- **NVIDIA · Data quality** — Automated validation and ETL monitoring, saving **12+ hours per week** and raising data accuracy to **99.4%**.
+- **Cautio · Operations analytics** — Analyzed **250K+ records** and automated recurring reporting, cutting manual effort by **45%** and saving **10+ hours per week**.
+- **LaunchED Global · Product engineering** — Built Meraki dashboard policy-management features with **React, Redux, and Ruby on Rails**; partnered with product and engineering on **20+ requirements**.
+
+## Selected projects
+
+### Character-aware neural language model
+Built a character-aware language model in **PyTorch**, evaluated on the **UD English Web Treebank**. Character representations reduced perplexity on unseen words by **3%** versus a same-size baseline.
+
+### Transformer and sentiment analysis for algorithmic trading
+Explored sequence models and news sentiment for market analysis. Built a research prototype with **Flask and Go APIs**, a **React** interface, and market-data workflows on **AWS**. Back-tested strategies in R.
+
+## Experience
+
+| Role | Focus |
+| --- | --- |
+| **Data Specialist · NVIDIA** · Oct 2026–Present | GPU telemetry, Python/SQL, ETL monitoring, Power BI |
+| **Data Analyst · Cautio** · Jun 2026–Present | Operations analytics, KPI dashboards, automation |
+| **Business Analyst Intern · LaunchED Global** · Mar–May 2026 | Product requirements, React/Redux/Rails, analytics |
+| **Software Engineering Intern · Board Infinity** · Jun–Aug 2024 | C++, data structures and algorithms, object-oriented programming |
+
+## Technical focus
+
+**Data & analytics:** Python, SQL, MySQL, Power BI, Tableau, Excel, ETL, data modeling  
+**Machine learning:** PyTorch, NLP, transformers, computer vision, NumPy, pandas, scikit-learn  
+**Software & cloud:** C++, React, Redux, Ruby on Rails, Flask, Go, AWS, Docker, Git
+
+## Education & credentials
+
+**B.Tech (Hons.), Computer Science — Data Science / ML focus; DevOps minor**  
+Lovely Professional University · Expected Aug 2026
+
+- Microsoft Certified: Azure AI Fundamentals (AI-900)
+- Oracle Certified Cloud Engineer
+
+## Research
+
+- **Accepted for publication (2026):** “Design and Implementation of a Scalable Serverless Framework for Event-Driven Applications: Performance and Cost Efficiency Analysis,” *IJSREM*.
+- **Submitted (2026):** “The Compute Horizon: Inference-Time Scaling and the Architecture of Reasoning AI,” *JCTSA*.
 
 ---
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
-![Apache Hadoop](https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
-![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white)
-![Ubisoft](https://img.shields.io/badge/Ubisoft-%23F5F5F5.svg?style=for-the-badge&logo=Ubisoft&logoColor=black)
-![Steam](https://img.shields.io/badge/steam-%23000000.svg?style=for-the-badge&logo=steam&logoColor=white)
-![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
-
----
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=itsyunus&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=itsyunus&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=itsyunus&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
----
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
----
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=itsyunus&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-![LeetCode Stats](https://leetcard.jacoblin.cool/YunuZCodes?ext=contest)
-##
-<!-- LEETCODE-STREAK-START -->
-🔥 Current LeetCode Streak: `7` days
-<!-- LEETCODE-STREAK-END -->
-##
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+*Open to conversations about data engineering, analytics infrastructure, and applied ML.*
