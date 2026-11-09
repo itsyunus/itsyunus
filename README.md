@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=itsyunus&amp;theme=aurora&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus hero visual" />
+  <img src="https://www.gitskins.com/api/section/hero?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus hero visual" />
 </p>
 
 ## The city I built this year
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/city?username=itsyunus&amp;theme=aurora&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus city visual" />
+  <img src="https://www.gitskins.com/api/section/city?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus city visual" />
 </p>
 
 <p align="center"><sub>Every building is a day; taller means more contributions.</sub></p>
@@ -19,7 +19,7 @@
 ## Population
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=itsyunus&amp;theme=aurora&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus stats visual" />
+  <img src="https://www.gitskins.com/api/section/stats?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus stats visual" />
 </p>
 
 <p align="center">
@@ -27,17 +27,17 @@
 </p>
 
 <p align="center">
-  <a href="https://leetcode.com/YunuZCodes/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/YunuZCodes?theme=dark&amp;ext=heatmap"/><img src="https://leetcard.jacoblin.cool/YunuZCodes?theme=light&amp;ext=heatmap" width="97%" alt="LeetCode statistics and activity heatmap for YunuZCodes"/></picture></a>
+  <a href="https://leetcode.com/YunuZCodes/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/YunuZCodes?theme=dark"/><img src="https://leetcard.jacoblin.cool/YunuZCodes?theme=light" width="97%" alt="LeetCode statistics for YunuZCodes"/></picture></a>
 </p>
 
 <!-- LEETCODE-STREAK-START -->
-<p align="center">🔥 Current LeetCode Streak: <strong>7</strong> days</p>
+<p align="center">Current LeetCode streak: <strong>7</strong> days</p>
 <!-- LEETCODE-STREAK-END -->
 
 ## Landmarks
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/projects?username=itsyunus&amp;theme=aurora&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus projects visual" />
+  <img src="https://www.gitskins.com/api/section/projects?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus projects visual" />
 </p>
 
 ## The route here
@@ -50,7 +50,7 @@
 ## Visit
 
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/social?username=itsyunus&amp;theme=aurora&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus social visual" />
+  <img src="https://www.gitskins.com/api/section/social?username=itsyunus&amp;theme=minimal&amp;avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F115158557%3Fu%3D072ab350447e2ec8298862f85507ccac4bb8fbbd%26v%3D4" alt="itsyunus social visual" />
 </p>
 
 <p align="center"><a href="https://github.com/itsyunus">GitHub</a> · <a href="https://yunuz.codes/">Website</a></p>

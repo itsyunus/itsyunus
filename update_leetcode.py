@@ -39,7 +39,7 @@ current_streak = cal.get("streak", 0)
 with open("README.md", "r+") as f:
     content = f.read()
     start, end = "<!-- LEETCODE-STREAK-START -->", "<!-- LEETCODE-STREAK-END -->"
-    new_section = f'{start}\n<p align="center">🔥 Current LeetCode Streak: <strong>{current_streak}</strong> days</p>\n{end}'
+    new_section = f'{start}\n<p align="center">Current LeetCode streak: <strong>{current_streak}</strong> days</p>\n{end}'
     updated = content.split(start)[0] + new_section + content.split(end)[1]
     f.seek(0); f.write(updated); f.truncate()
 
