@@ -167,9 +167,9 @@ def experience(p):
     out=[]
     for i,(num,when,role,company,desc) in enumerate(rows):
         y=17+i*86
-        out.append(f'<g class="rise" style="animation-delay:{.12+i*.16}s"><path d="M40 {y+75}H960" class="rule"/><text x="46" y="{y+24}" class="small dim">{num}</text><text x="96" y="{y+23}" class="small muted">{when}</text><text x="330" y="{y+25}" font-size="15" font-weight="700">{role}</text><text x="330" y="{y+48}" class="small accent">{company}</text><text x="600" y="{y+36}" font-size="12" class="muted">{esc(desc)}</text></g>')
+        out.append(f'<g class="rise" style="animation-delay:{.12+i*.16}s"><path d="M40 {y+75}H960" class="rule"/><text x="46" y="{y+23}" class="small dim">{num}</text><text x="96" y="{y+23}" class="small muted">{when}</text><text x="335" y="{y+24}" font-size="15" font-weight="700">{role}</text><text x="690" y="{y+23}" class="small accent">{company}</text><text x="96" y="{y+56}" font-size="12" class="muted">{esc(desc)}</text></g>')
     return ''.join(out)
-dual('experience',1000,370,'Professional experience','Four roles with employers, dates, scope, and outcomes.',experience)
+dual('experience-v2',1000,370,'Professional experience','Four roles with employers, dates, scope, and outcomes.',experience)
 
 def stack(p):
     groups=[('DATA / ANALYTICS',['Python','SQL','MySQL','Power BI','Tableau','Excel','Pandas']),('ML / RESEARCH',['PyTorch','NLP','Transformers','NumPy','scikit-learn']),('ENGINEERING / CLOUD',['C++','React','Redux','Rails','Flask','Go','AWS','Docker','Git'])]
