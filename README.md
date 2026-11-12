@@ -31,7 +31,7 @@
 </p>
 
 <!-- LEETCODE-STREAK-START -->
-<p align="center">Current LeetCode streak: <strong>7</strong> days</p>
+<p align="center">Current LeetCode streak: <strong>8</strong> days</p>
 <!-- LEETCODE-STREAK-END -->
 
 ## Landmarks
