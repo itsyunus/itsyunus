@@ -23,9 +23,11 @@
 ## The city I built this year
 
 <p align="center">
-  <a href="https://github.com/itsyunus">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=itsyunus&bg_color=0d1117&color=8b949e&line=58a6ff&point=c9d1d9&area=true&area_color=161b22&hide_border=true&custom_title=Contribution%20Activity" width="97%" alt="itsyunus contribution city visual"/>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itsyunus/itsyunus/main/profile-3d-contrib/profile-night-rainbow.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itsyunus/itsyunus/main/profile-3d-contrib/profile-green-animate.svg">
+    <img src="https://raw.githubusercontent.com/itsyunus/itsyunus/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="itsyunus 3D contribution city"/>
+  </picture>
 </p>
 
 <p align="center"><sub>Every building is a day; taller means more contributions.</sub></p>
