@@ -9,6 +9,13 @@ Data science and data engineering professional interested in machine learning an
 - **[Netflix Catalog Analysis](https://github.com/itsyunus/Netflix-Data-Visualization)** — a Jupyter and Plotly exploration of catalog composition and viewing patterns.
 - **[E-commerce Funnel Analysis](https://github.com/itsyunus/ecommerce-funnel-analysis)** — SQL examples for product views and add-to-cart rates.
 
+## Live project previews
+
+| Project | Live preview |
+| --- | --- |
+| [Portfolio](https://github.com/itsyunus/Portfolio) · [Live site](https://yunuz.vercel.app) | ![Portfolio live preview](https://raw.githubusercontent.com/itsyunus/Portfolio/main/docs/screenshots/portfolio-live.png) |
+| [Air Bharat](https://github.com/itsyunus/Final-Year-Project) · [Live demo](https://final-year-project-azure-ten.vercel.app) | ![Air Bharat live preview](https://raw.githubusercontent.com/itsyunus/Final-Year-Project/main/docs/screenshots/air-bharat-live.png) |
+
 ## Tools I use
 
 Python · SQL · React · TypeScript · Flutter · Streamlit
